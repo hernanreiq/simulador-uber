@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/2acc1475d8.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
@@ -8,7 +9,20 @@
 </head>
 <body>
     <h1>Simulador de Uber</h1>
-    <img src="img/r1.png" alt="">
+    <div class="imagen">
+        <i class="fas fa-car" id="carro"></i>
+        <i class="fas fa-user" id="usuario"></i>
+        <img src="img/r1.png" alt="ruta" id="ruta"><br>
+    </div>
+    <div class="botones">
+        <button>Avanzar</button>
+        <button>Parar</button>
+        <button>Volver</button>
+        <button id="cambiar">Cambiar ruta</button>
+    </div>
+    <footer>
+        <p>Desarrollo y diseño por: <a href="https://hernanreiq.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Hernan.Reiq</a></p>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 </html>
