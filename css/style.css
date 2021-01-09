@@ -26,6 +26,7 @@ div.imagen {
     width: 400px;
     height: 560px;
     margin: 0 auto;
+    position: relative;
 }
 img {
     width: 100%;
@@ -67,18 +68,19 @@ footer p a {
 }
 #carro, #usuario {
     font-size: 30px;
-    color: rgb(0, 102, 143);
+    color: rgb(235, 199, 0);
     text-shadow: black 1px 1px 1px;
     position: absolute;
     z-index: 100;
 }
 #carro {
-    bottom: 0;
-    left: 0;
+    top: 345px;
+    right: 10px;
+    display: none;
 }
 #usuario {
-    bottom: 0;
+    bottom: 0px;
     right: 0;
-    color: green;
+    color: rgb(2, 228, 2);
 }
 
